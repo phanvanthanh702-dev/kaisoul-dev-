@@ -1,0 +1,64 @@
+# dependencies
+/node_modules
+/.pnpm-store
+
+# next.js build output
+/.next/
+/out/
+
+# production output
+/build
+/dist
+
+# debug & logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+*.log
+
+# local env files (do NOT ignore .env.example)
+.env
+.env*.local
+.env.production
+.env.staging
+
+# prisma
+/prisma/migrations/dev.db
+/prisma/migrations/dev.db-journal
+*.db
+*.sqlite
+
+# typescript
+*.tsbuildinfo
+
+# vercel
+.vercel
+
+# operating system files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDEs & code editors
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+.idea/
+*.suo
+*.ntvsopt
+*.njsproj
+*.sln
+*.sw?
+
+# temporary files & caches
+.eslintcache
+.stylelintcache
+.turbo
